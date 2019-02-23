@@ -2,7 +2,7 @@ name := "bar"
 
 organization := "com.example"
 
-version := "0.1"
+version := "0.1-"+ new java.util.Date().getTime
 
 scalaVersion := "2.12.8"
 
